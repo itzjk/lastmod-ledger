@@ -1,0 +1,21 @@
+{
+  "sitemap": "after/sitemap.xml",
+  "files": [
+    {
+      "url": "https://example.test/alpha",
+      "file": "after/Alpha.html"
+    },
+    {
+      "url": "https://example.test/beta",
+      "file": "after/Beta.html"
+    },
+    {
+      "url": "https://example.test/gamma",
+      "file": "after/Gamma.html"
+    },
+    {
+      "url": "https://example.test/delta",
+      "file": "after/Delta.html"
+    }
+  ]
+}

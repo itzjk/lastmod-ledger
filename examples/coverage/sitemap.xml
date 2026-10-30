@@ -1,0 +1,8 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.test/alpha</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://example.test/beta</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://example.test/gamma</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://example.test/delta</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://example.test/epsilon</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://example.test/missing</loc><lastmod>2026-10-29</lastmod></url>
+</urlset>

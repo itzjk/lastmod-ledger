@@ -1,0 +1,29 @@
+{
+  "sitemap": "coverage/sitemap.xml",
+  "files": [
+    {
+      "url": "https://example.test/alpha",
+      "file": "coverage/Alpha.html"
+    },
+    {
+      "url": "https://example.test/beta",
+      "file": "coverage/Beta.html"
+    },
+    {
+      "url": "https://example.test/gamma",
+      "file": "coverage/Gamma.html"
+    },
+    {
+      "url": "https://example.test/delta",
+      "file": "coverage/Delta.html"
+    },
+    {
+      "url": "https://example.test/epsilon",
+      "file": "coverage/Epsilon.html"
+    },
+    {
+      "url": "https://example.test/missing",
+      "file": "coverage/Missing.html"
+    }
+  ]
+}

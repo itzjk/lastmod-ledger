@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lastmod-ledger"
+version = "0.1.0"
+description = "Compare declared sitemap dates with exact file bytes across two saved site snapshots."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{name = "ZERACK"}]
+keywords = ["sitemap", "lastmod", "technical-seo", "static-site", "cli", "continuous-integration"]
+dependencies = ["defusedxml>=0.7.1,<1"]
+classifiers = ["Programming Language :: Python :: 3", "Operating System :: POSIX"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[project.urls]
+Repository = "https://github.com/itzjk/lastmod-ledger"
+Issues = "https://github.com/itzjk/lastmod-ledger/issues"
+
+[project.scripts]
+lastmod-ledger = "lastmod_ledger.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
